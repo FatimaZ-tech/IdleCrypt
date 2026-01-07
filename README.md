@@ -170,6 +170,8 @@ The project is intended **strictly for educational and research purposes**.
 
 This project is licensed under the **MIT License**.
 
+See the `LICENSE` file for full license text.
+
 ---
 
 ## Author
