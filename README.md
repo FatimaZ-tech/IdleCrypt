@@ -14,7 +14,7 @@ The project is designed to mitigate risks caused by unlocked systems in shared w
 4. Encrypted files are marked with a `.enc` extension.
 5. A separate script is used to decrypt the files when access is required.
 
-Note: This project encrypts **file contents**, not the folder metadata itself. This is standard practice in file-level encryption systems.
+Note: This project encrypts **file contents**, not the folder metadata itself.
 
 ---
 
