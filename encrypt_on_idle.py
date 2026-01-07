@@ -6,7 +6,7 @@ from crypto_utils import derive_key
 from folder_crypto import encrypt_folder
 
 IDLE_LIMIT = 600  #10 minutes
-TARGET_FOLDER = "SensitiveData"
+TARGET_FOLDER = "FolderPath"
 
 start_activity_monitor()
 
