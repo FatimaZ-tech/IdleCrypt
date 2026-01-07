@@ -129,12 +129,9 @@ Enter the **same password** used during encryption. Encrypted files (`.enc`) wil
 
 IdleCrypt does not implement any auto-run or persistence mechanism.
 
-The tool is designed to be executed manually to keep the codebase
-portable, transparent, and easy to audit.
+The tool in its current state is designed to be executed manually to keep the codebase portable and transparent.
 
-Users who require automatic execution at login may **implement their own**
-persistence mechanism (for example, using macOS LaunchAgents) by modifying
-the code and providing system-specific absolute paths.
+Users who require automatic execution at login may **implement their own** persistence mechanism (for example, using macOS LaunchAgents) by modifying the code and providing system-specific absolute paths.
 
 No auto-run functionality is included in this project.
 
@@ -163,8 +160,7 @@ IDLE_LIMIT = 600  # idle time in seconds
 
 ## Ethical Considerations
 
-IdleCrypt demonstrates techniques that may resemble those used by malware  
-(e.g., file encryption and persistence).
+IdleCrypt demonstrates techniques that may resemble those used by malware (e.g., file encryption and persistence).
 
 The project is intended **strictly for educational and research purposes**.
 
