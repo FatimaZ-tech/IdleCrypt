@@ -2,7 +2,7 @@
 
 IdleCrypt is a macOS-based security tool that automatically encrypts the contents of a sensitive folder when the system is left unattended for a specified period of time.
 
-The project is designed to mitigate risks caused by unlocked systems in shared workspaces by enforcing **idle-based data protection** at the endpoint level.
+The project is designed to mitigate risks caused by unlocked systems in shared workspaces where temporary physical access can lead to data exposure.
 
 ---
 
