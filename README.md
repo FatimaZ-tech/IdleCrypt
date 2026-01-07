@@ -1,6 +1,6 @@
 # IdleLock
 
-IdleLock is a macOS-based security tool that automatically encrypts the contents of a sensitive folder when the system is left unattended for a specified period of time.
+IdleCrypt is a macOS-based security tool that automatically encrypts the contents of a sensitive folder when the system is left unattended for a specified period of time.
 
 The project is designed to mitigate risks caused by unlocked systems in shared workspaces by enforcing **idle-based data protection** at the endpoint level.
 
@@ -71,13 +71,13 @@ You must configure the **same folder path** in **both scripts**.
 
 ---
 
-### 📄 `encrypt_on_idle.py`
+### `encrypt_on_idle.py`
 
 ```python
 TARGET_FOLDER = "FolderPath"
 ```
 
-### 📄 `decrypt_folder.py`
+### `decrypt_folder.py`
 
 ```python
 folder = "FolderPath"
@@ -150,7 +150,7 @@ In `encrypt_on_idle.py`, adjust the following value:
 IDLE_LIMIT = 600  # idle time in seconds
 ```
 
---
+---
 
 ## Limitations
 
